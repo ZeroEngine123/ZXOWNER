@@ -1403,7 +1403,7 @@ local function ESPTick()
 
     if not crowded and HUD and currentPawn then
         HUD:AddDebugText(string.format("BOT : %d     PLAYER : %d", botCount, playerCount), currentPawn, 1, {X=0,Y=0,Z=155}, {X=0,Y=0,Z=155}, {R=255,G=255,B=0,A=255}, true, false, true, nil, 1.0, true)
-        HUD:AddDebugText("MOD BY @zx_owner PUBLIC", currentPawn, 1, {X=0,Y=0,Z=145}, {X=0,Y=0,Z=145}, {R=0,G=200,B=255,A=255}, true, false, true, nil, 1.0, true)
+        HUD:AddDebugText("TELEGRAM  - @zx_owner", currentPawn, 1, {X=0,Y=0,Z=145}, {X=0,Y=0,Z=145}, {R=0,G=200,B=255,A=255}, true, false, true, nil, 1.0, true)
     end
 end
 
@@ -1778,7 +1778,7 @@ pcall(function()
             local AliasMap = require("client.slua.umg.NewSetting.Item.AliasMap")
 
             local ModMenuStack = {
-                { UI = AliasMap.Title, Text = "ADITYA_ORG SETTINGS" },
+                { UI = AliasMap.Title, Text = "HACK MENU" },
 
                 -- === FEATURES ===
                 {
@@ -1932,7 +1932,7 @@ pcall(function()
 
             SettingPageDefine.ModMenu = {
                 Key = "ModMenu",
-                loc = "ADITYA_ORG MENU",
+                loc = "HACK MENU",
                 UIKey = "Setting_Page_Privacy",
                 Category = {
                     {
